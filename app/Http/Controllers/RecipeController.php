@@ -44,7 +44,7 @@ class RecipeController extends Controller
     private function getRecipes()
     {
         $recipes = [
-            1 => ['id' => 1, 'name' => 'Pinangat na Isda sa Catanduanes', 'cuisine' => 'Seafood',
+            1 => ['id' => 1, 'name' => 'Pinangat na Isda', 'cuisine' => 'Seafood',
                 'difficulty' => 'Medium', 'cookTime' => '40 minutes'],
             2 => ['id' => 2, 'name' => 'Kinunot na Pagi', 'cuisine' => 'Seafood',
                 'difficulty' => 'Medium', 'cookTime' => '35 minutes'],
@@ -54,11 +54,11 @@ class RecipeController extends Controller
                 'difficulty' => 'Easy', 'cookTime' => '15 minutes'],
             5 => ['id' => 5, 'name' => 'Suam na Mais', 'cuisine' => 'Soup',
                 'difficulty' => 'Easy', 'cookTime' => '25 minutes'],
-            6 => ['id' => 6, 'name' => 'Inaswang na Manok sa Gata', 'cuisine' => 'Meat',
+            6 => ['id' => 6, 'name' => 'Ginataan na Manok', 'cuisine' => 'Meat',
                 'difficulty' => 'Medium', 'cookTime' => '50 minutes'],
             7 => ['id' => 7, 'name' => 'Tinutungang Manok', 'cuisine' => 'Meat',
                 'difficulty' => 'Medium', 'cookTime' => '45 minutes'],
         ];
-        return $recipes; //returns the data from $recipes array
+        return $recipes; 
     }
 }
