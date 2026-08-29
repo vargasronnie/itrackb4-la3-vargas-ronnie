@@ -44,21 +44,28 @@ class RecipeController extends Controller
     private function getRecipes()
     {
         $recipes = [
-            1 => ['id' => 1, 'name' => 'Pinangat na Isda', 'cuisine' => 'Seafood',
-                'difficulty' => 'Medium', 'cookTime' => '40 minutes'],
+            1 => ['id' => 1, 'name' => 'Pinangat na Isda sa Catanduanes', 'cuisine' => 'Seafood',
+                'difficulty' => 'Medium', 'cookTime' => '40 minutes',
+                'ingredients' => 'Fresh fish, Gabi leaves, Coconut milk, Sili, Ginger, Onion'],
             2 => ['id' => 2, 'name' => 'Kinunot na Pagi', 'cuisine' => 'Seafood',
-                'difficulty' => 'Medium', 'cookTime' => '35 minutes'],
+                'difficulty' => 'Medium', 'cookTime' => '35 minutes',
+                'ingredients' => 'Stingray, Coconut milk, Malunggay leaves, Sili, Ginger'],
             3 => ['id' => 3, 'name' => 'Laing', 'cuisine' => 'Vegetable',
-                'difficulty' => 'Easy', 'cookTime' => '45 minutes'],
+                'difficulty' => 'Easy', 'cookTime' => '45 minutes',
+                'ingredients' => 'Dried gabi leaves, Coconut milk, Sili, Shrimp paste, Garlic'],
             4 => ['id' => 4, 'name' => 'Pili Nut Brittle', 'cuisine' => 'Dessert',
-                'difficulty' => 'Easy', 'cookTime' => '15 minutes'],
+                'difficulty' => 'Easy', 'cookTime' => '15 minutes',
+                'ingredients' => 'Pili nuts, Sugar, Butter, Salt'],
             5 => ['id' => 5, 'name' => 'Suam na Mais', 'cuisine' => 'Soup',
-                'difficulty' => 'Easy', 'cookTime' => '25 minutes'],
-            6 => ['id' => 6, 'name' => 'Ginataan na Manok', 'cuisine' => 'Meat',
-                'difficulty' => 'Medium', 'cookTime' => '50 minutes'],
+                'difficulty' => 'Easy', 'cookTime' => '25 minutes',
+                'ingredients' => 'Young corn, Malunggay leaves, Shrimp, Onion, Ginger'],
+            6 => ['id' => 6, 'name' => 'Inaswang na Manok sa Gata', 'cuisine' => 'Meat',
+                'difficulty' => 'Medium', 'cookTime' => '50 minutes',
+                'ingredients' => 'Native chicken, Coconut milk, Sili, Ginger, Lemongrass'],
             7 => ['id' => 7, 'name' => 'Tinutungang Manok', 'cuisine' => 'Meat',
-                'difficulty' => 'Medium', 'cookTime' => '45 minutes'],
+                'difficulty' => 'Medium', 'cookTime' => '45 minutes',
+                'ingredients' => 'Native chicken, Burnt coconut milk, Sili, Ginger, Lemongrass'],
         ];
-        return $recipes; 
+        return $recipes; //returns the data from $recipes array
     }
 }
