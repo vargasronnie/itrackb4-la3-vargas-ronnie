@@ -8,14 +8,14 @@ class RecipeController extends Controller
 {
     private function getRecipes()
     {
-       return [
+        return [
             1 => [
                 'id' => 1,
                 'name' => 'Pinangat na Isda',
                 'cuisine' => 'Seafood',
                 'difficulty' => 'Medium',
                 'cookTime' => '40 minutes',
-                'ingredients' => 'Fish, Gabi leaves, Coconut milk, Sili, Ginger'
+                'ingredients' => 'Fresh fish, Gabi leaves, Coconut milk, Sili, Ginger, Onion'
             ],
             2 => [
                 'id' => 2,
@@ -35,11 +35,11 @@ class RecipeController extends Controller
             ],
             4 => [
                 'id' => 4,
-                'name' => 'Bicol Express',
-                'cuisine' => 'Meat',
-                'difficulty' => 'Medium',
-                'cookTime' => '30 minutes',
-                'ingredients' => 'Pork belly, Coconut milk, Sili, Shrimp paste, Onion, Garlic'
+                'name' => 'Pili Nut Brittle',
+                'cuisine' => 'Dessert',
+                'difficulty' => 'Easy',
+                'cookTime' => '15 minutes',
+                'ingredients' => 'Pili nuts, Sugar, Butter, Salt'
             ],
             5 => [
                 'id' => 5,
@@ -51,11 +51,11 @@ class RecipeController extends Controller
             ],
             6 => [
                 'id' => 6,
-                'name' => 'Linusak',
-                'cuisine' => 'Dessert',
-                'difficulty' => 'Easy',
-                'cookTime' => '20 minutes',
-                'ingredients' => 'Saba banana, Glutinous rice, Coconut milk, Sugar'
+                'name' => 'Ginataang Manok',
+                'cuisine' => 'Meat',
+                'difficulty' => 'Medium',
+                'cookTime' => '50 minutes',
+                'ingredients' => 'Native chicken, Coconut milk, Sili, Ginger, Lemongrass'
             ],
             7 => [
                 'id' => 7,
