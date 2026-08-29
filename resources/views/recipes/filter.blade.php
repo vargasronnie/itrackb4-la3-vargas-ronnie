@@ -4,11 +4,11 @@
     <title>Recipes</title>
 </head>
 <body>
-    @if ($cuisine === null)
+    @if ($value === null)
         <h1>All Recipes</h1>
         <p>Showing {{ count($recipes) }} recipes</p>
     @else
-        <h1>{{ $cuisine }} Recipes</h1>
+        <h1>{{ $value }} Recipes</h1>
         <p>Showing {{ count($recipes) }} recipe(s)</p>
     @endif
     
@@ -31,6 +31,6 @@
     
     <p>By Ronnie Vargas</p>
     
-    <a href="#">Back to Recipes</a>
+    <a href="{{ route('recipes.index') }}">Back to Recipes</a>
 </body>
 </html>
